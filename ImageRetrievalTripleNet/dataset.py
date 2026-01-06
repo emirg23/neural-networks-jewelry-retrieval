@@ -24,7 +24,7 @@ class TripletFolderDataset(Dataset):
                 transforms.ToTensor()
             ])
         
-        print("Classes found:", self.classes)
+        print("classes found:", self.classes)
         for c in self.classes:
             print(c, "->", len(self.images[c]), "images")
 
