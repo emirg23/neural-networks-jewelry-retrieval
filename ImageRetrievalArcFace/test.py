@@ -29,7 +29,7 @@ retriever = ArcFaceRetriever(
 )
 
 query_img = Image.open(
-    "/Users/emirg/Desktop/test.jpg"
+    "/Users/emirg/Desktop/JewelryImageRetrieval/test.jpg"
 ).convert("RGB")
 
 results = retriever.get_top_k(query_img, transform, k=5)

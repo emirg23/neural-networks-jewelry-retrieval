@@ -8,7 +8,7 @@ DEVICE = "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is
 MODEL_PATH = "models/triplet/triplet.pth"
 EMBEDDING_DIM = 128
 EMBEDDINGS_PATH = "embeddings.pt"
-IMAGE_PATH = "/Users/emirg/Desktop/test.jpg"
+IMAGE_PATH = "/Users/emirg/Desktop/JewelryImageRetrieval/test.jpg"
 TOP_K = 5
 
 # MODEL (TripletNet)
